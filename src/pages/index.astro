@@ -9,6 +9,8 @@ const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueO
 const last_posts = posts.slice(0, 3);
 ---
 
+<!-- Presentation -->
+
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
@@ -21,40 +23,41 @@ const last_posts = posts.slice(0, 3);
     </div>
     <div class="mt-8">
       <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
     </div>
   </div>
 
+  <!-- Projects -->
+
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    <div class="text-3xl w-full font-bold mb-2">My best projects {"</>"}</div>
   </div>
 
   <HorizontalCard
-    title="Landing page"
-    img="/next_vale.jpg"
-    desc="Desenvolvi uma landing page para empresa de infraestrutura de TI, com design moderno, descrições claras e recursos responsivos, incluindo links internos/externos e integração do Google Maps."
-    url="#"
+    title="Design responsivo de site de academia"
+    img="/gym.png"
+    desc="Desenvolvi um site de academia responsivo em HTML, CSS e JavaScript, com animações ao rolar, cálculo de IMC e envio de e-mails. Adotado o método Mobile First, compatível com dispositivos móveis e interface agradável."
+    url="https://pgbsm.github.io/lp-personal/" target="_black"
     badge="NEW"
   />
-  <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Landing Page Next Vale"
+    img="/next_vale.jpg"
+    desc="Desenvolvi uma landing page para empresa de infraestrutura de TI, com design moderno, descrições claras e recursos responsivos, incluindo links internos/externos e integração do Google Maps."
+    url="http://www.nextvale.com.br/" target="_black"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Landing Page Oficina do Micro"
+    img="/oficina_do_micro.png"
+    desc="Desenvolvi uma landing page para empresa do ramo de assistência técnica, com design moderno, descrições claras e recursos responsivos, incluindo links internos/externos e integração do Google Maps."
+    url="https://www.oficinadomicrojacarei.com.br/" target="_black"
     badge="FOSS"
   />
+  <div class="divider my-0"></div>
 
-  <div>
+  <!-- Blog -->
+
+  <!-- <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
   </div>
 
@@ -73,4 +76,4 @@ const last_posts = posts.slice(0, 3);
       </>
     ))
   }
-</BaseLayout>
+</BaseLayout> -->
