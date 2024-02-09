@@ -12,7 +12,7 @@ Links externos para todas as minhas redes sociais. <br>
 
 💙 Creditos para. [Manuel Ernesto](https://manuelernestog.github.io/)
 
-<img src="./public/readme-img.png" style="width: 50%; heigth: 50%;"/>
+<img src="./public/readme-img.png" style="width: 80%; heigth: 80%;"/>
 
 ## Tecnologias
 
