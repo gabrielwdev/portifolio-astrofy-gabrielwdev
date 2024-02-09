@@ -2,25 +2,25 @@
 
 ## Astrofy | Modelo de site de portfólio pessoal usando Astro e TailwindCSS
 
-Astrofy é um modelo gratuito e de código aberto para o seu site de portfólio pessoal criado com Astro e TailwindCSS. Com Página incicial, Seção de Projetos, e CV.
+Astrofy é um modelo gratuito e de código aberto para o seu site de portfólio pessoal criado com Astro e TailwindCSS. Com Página incicial, Seção de Projetos, e CV. <br>
 Site original: [Astrofy Template ⚡️](https://astrofy-template.netlify.app/)
 
-Compatível com todos os dispositivos móveis e com uma interface de usuário bonita e agradável.
-Curriculo online.
-Projetos pessoais e profissionais.
-Links externos para todas as minhas redes sociais.
+Compatível com todos os dispositivos móveis e com uma interface de usuário bonita e agradável. <br>
+Curriculo online. <br>
+Projetos pessoais e profissionais. <br>
+Links externos para todas as minhas redes sociais. <br>
 
 💙 Creditos para. [Manuel Ernesto](https://manuelernestog.github.io/)
 
-![Astrofy | Personal Porfolio Website Template](public/social_img.webp)
+<img src="./public/readme-img.png" style="width: 50%; heigth: 50%;"/>
 
-## Tech Stack
+## Tecnologias
 
 - [Astro](https://astro.build)
 - [tailwindcss](https://tailwindcss.com/)
 - [DaisyUI](https://daisyui.com/)
 
-## Project Structure
+## Estrutura do projeto
 
 ```php
 ├── src/
@@ -67,11 +67,11 @@ Links externos para todas as minhas redes sociais.
 └── tsconfig.json
 ```
 
-## License
+## Licença
 
-Astrofy is licensed under the MIT license — see the [LICENSE](https://github.com/manuelernestog/astrofy/blob/main/LICENSE) file for details.
+Astrofy é licenciado sob a licença MIT - veja o [LICENSE](https://github.com/manuelernestog/astrofy/blob/main/LICENSE) arquivo para detalhes.
 
-## Contributors
+## Contribuições
 
 <a href="https://github.com/manuelernestog/astrofy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=manuelernestog/astrofy" />
