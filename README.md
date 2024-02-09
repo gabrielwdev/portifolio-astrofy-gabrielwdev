@@ -1,6 +1,6 @@
 # Astrofy | Modelo de site de portfólio pessoal
 
-# # Astrofy | Modelo de site de portfólio pessoal usando Astro e TailwindCSS
+## Astrofy | Modelo de site de portfólio pessoal usando Astro e TailwindCSS
 
 Astrofy é um modelo gratuito e de código aberto para o seu site de portfólio pessoal criado com Astro e TailwindCSS. Com Página incicial, Seção de Projetos, e CV.
 Site original: [Astrofy Template ⚡️](https://astrofy-template.netlify.app/)
